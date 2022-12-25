@@ -148,6 +148,7 @@ fn main() -> anyhow::Result<()> {
                 )
                 .arg(
                     Arg::with_name("hidden")
+                        .short("H")
                         .long("hidden")
                         .help("The `recursive` flag defaults to ignoring directories \
                         that start with a `.`, `.git` for example is unlikely to include a \
